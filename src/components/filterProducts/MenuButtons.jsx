@@ -47,7 +47,7 @@ export default function MenuButtons({ name, width, items, filter , disabled }) {
   }, [open]);
   return (
     <Stack direction="row" spacing={2}>
-      <div>
+      <div style={{zIndex: 999}}>
         <Button
           disabled = {disabled} 
           ref={anchorRef}

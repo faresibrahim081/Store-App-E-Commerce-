@@ -12,7 +12,6 @@ import {
   filterByColor,
   filterBySize,
 } from "../../features/slices/ProductsSlice";
-import Navbar from "../navbar/Navbar";
 
 function FilterProducts() {
   const error = useSelector((state) => state.products.error);
@@ -34,7 +33,6 @@ function FilterProducts() {
 
   return (
     <>
-      <Navbar />
       <Box sx={{ width: "80%", mx: "auto" }}>
         <Box sx={{ mx: "auto" }}>
           <Box pt={2}>

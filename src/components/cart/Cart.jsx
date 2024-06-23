@@ -73,6 +73,7 @@ export default function Cart({ handleClickClose, openCart }) {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-between",
+                    flexDirection: { xs: "column", sm: "row" }
                   }}
                   key={index}
                 >
